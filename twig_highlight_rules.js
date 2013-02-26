@@ -69,7 +69,7 @@ var TwigHighlightRules = function() {
 
     // add twig start tags to the HTML start tags
     this.$rules.start.unshift({
-            token : "meta.tag.twig",
+            token : "variable.other.readwrite.local.twig",
             regex : "\\{\\{-?",
             next : "twig-start"
         }, {
@@ -92,7 +92,7 @@ var TwigHighlightRules = function() {
     // Specific twig rules (heavily borrowed from Liquid, some from JavaScript)
     this.$rules["twig-start"] = [
         {
-            token : "meta.tag.twig",
+            token : "variable.other.readwrite.local.twig",
             regex : "-?\\}\\}",
             next : "start"
         }, {
