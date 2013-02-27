@@ -45,7 +45,7 @@ var TwigHighlightRules = function() {
     // capture all of the twig keywords
     var tags = ("autoescape|block|do|embed|extends|filter|flush|for|from|if|import|include|macro|sandbox|set|spaceless|use|verbatim");
         tags += ("end" + tags.replace(/\|/g, "|end"));
-    var filters = ("abs|batch|capitalize|convert_encoding|date|date_modify|default|escape|first|format|join|json_encode|keys|last|length|lower|merge|nl2br|number_format|raw|replace|reverse|slice|sort|split|striptags|title|trim|upper|url_encode");
+    var filters = ("abs|batch|capitalize|convert_encoding|date|date_modify|default|e|escape|first|format|join|json_encode|keys|last|length|lower|merge|nl2br|number_format|raw|replace|reverse|slice|sort|split|striptags|title|trim|upper|url_encode");
     var functions = ("attribute|block|constant|cycle|date|dump|include|parent|random|range|template_from_string");
     var tests = ("constant|divisibleby|sameas|defined|empty|even|iterable|odd");
     var constants = ("null|none|true|false");
