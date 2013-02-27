@@ -49,6 +49,7 @@ var TwigHighlightRules = require("./twig_highlight_rules").TwigHighlightRules;
 // TODO: pick appropriate fold mode
 var HtmlBehaviour = require("./behaviour/html").HtmlBehaviour;
 var HtmlFoldMode = require("./folding/html").FoldMode;
+var MatchingBraceOutdent = require("./matching_brace_outdent").MatchingBraceOutdent;
 
 var Mode = function() {
     // NOTE: borrowed from Html
